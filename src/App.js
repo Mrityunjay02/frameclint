@@ -1,4 +1,5 @@
 import React from 'react';
+import Navigation from './components/Navigation';
 import HeroSection from './components/HeroSection';
 import Hero2 from './components/Hero2';
 import Hero3 from './components/Hero3';
@@ -17,6 +18,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <Navigation />
       <HeroSection />
       <Hero2 />
       <Hero3/>
